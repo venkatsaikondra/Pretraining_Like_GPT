@@ -1,11 +1,9 @@
-DAY 1
-____________
 
 What is Language Modeling?
 
 Language modeling is the process of a machine learning model learning to predict the next word in a sequence of text, based on the words that came before it.
 
-![img.png](img.png)
+![img.png](images/img.png)
 
 We, humans, already have some feeling of "probability" when it comes to natural language. For example, when we talk, usually we understand each other quite well (at least, what's being said). We disambiguate between different options which sound similar without even realizing it!
 
@@ -72,17 +70,47 @@ the core stages that a model like GPT (Generative Pre-trained Transformer) goes 
 COLLECTING DATA
 
 Now I am taking the data as the book "The Verdict"
-![img_1.png](img_1.png)
+![img_1.png](images/img_1.png)
 
 Taking data from kaggle
 
 ---------------------------------------------------------------------------------------------------------
 
-Day 2
-
 TOKENIZATION
 
+Tokenization is the process of replacing sensitive data with a non-sensitive, unique equivalent called a "token"
+
+Good tokenization web app :https://tiktokenizer.vercel.app
+
 Byte pair encoder
+
+Byte Pair Encoding (BPE) is a data compression and tokenization technique that repeatedly merges the most frequent pair of adjacent symbols (bytes or characters) into a single, new symbol
+
+![img_2.png](images/img_2.png)
+
+______________________________________________________________________________________________________________________________________________________________________________________________________
+
+EMBEDDING LAYER
+
+"""
+Word Embeddings
+
+(〜￣▽￣)〜
+
+Word Embeddings is “a popular and powerful way
+to associate a vector with a word” 🚀
+
+An excellent benefit to using Word Embeddings is that
+it can “pack more information into far FEWER dimensions” than
+the “word vectors obtained via One-Hot encoding”
+
+I like the following remark about Word Embeddings 😉
+from https://medium.com/aiguys/word-embeddings-cbow-and-skip-gram-5d615ad61d3d
+“Word embeddings can be thought of as an alternate to one-hot encoding
+along with dimensionality reduction.”
+
+
+
 
 
 
